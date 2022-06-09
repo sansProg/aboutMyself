@@ -1,0 +1,155 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; /*it will download font merriweather from google but if it failed then the font shown will be serif*/
+}
+
+h1 {
+    /*font-size: 90px;  if we set the font like this then if the user has selected larger font in settings then all the content will become larger but this will remain the same size therefore we will use % instead of pixels*/
+    /*font-size: 562.5%; 100% corresponds to 16 px therefore for 90 pixel it should be 562.5%  . but if we use % and if we also specified say a font size of 100% in body tag then here the h1 tag will get a font size of 652.5% as when we use dynamic fonts it gets inherited from its parent*/
+    /*therefore for font size we prefer rem where, 1 rem = 1 px*/
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left: 300px;
+    bottom: 250px;
+}
+
+.btn {
+    color: #11999E;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.java-lang {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.c-lang {
+    width: 15%;
+    float: left; /*isse jo image abhi tak text ke oopar aa rahi thi vo text ke left mei aaegi and text right side pe and agar maan lo tumko sirf skill ki heading ko float karna hai and uss skill ke description pe nahi toh uss description pe clear : left laga do which will work as antifloat for the decription*/
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    border: dotted #cbebeb 6px;
+    border-bottom:none;
+    width: 4%;
+    margin: 100px auto ;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px ;
+
+}
+
+a:hover {
+    color: #1f4d4d;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.messagetoviewers {
+    line-height: 2;
+}
+
+/*below code is generated using css button generator tool*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
