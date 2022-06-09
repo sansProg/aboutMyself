@@ -1,19 +1,3 @@
-<!--here we will create a more professional portfolia site-->
-
-<!--note -- padding is the space between the content of the box and the border while margin is the space between border and other elements outside the box and border width is the space between content of the box and from where the margin starts
-hence total width of that element = margin + border width + padding + minimum space required to fit the whole content-->
-
-<!--display property--
-block-- these have width that matches parent and therefore koi aur element inke left ya right mei nahi aa sakta, bhale hi iska width chhota kardo. eg-paragraph element by default is block
-inline--ye wale elemnts line break generate nahi karte, sirf jitna contant hota hai utni hi jagah lete hain par inka ye drawback hai ki inka width change nahi kiya ja sakta . so to solve this problem we have --
-inline-block-- line break bhi nahi generate karega and idth bhi change kar sakte ho
-none -- after,applying this property, it looks like this element does not even exists.this is diffferent from the property visibility:hidden where the element becomes invisible but uski jagah uske agal bagal vale log nahi lelenge which is the case with display:none property -->
-
-<!--positioning--
-static-- this one is by default
-relative -- if we set relative positioning and then if we added left = 20px then the left end of the element will be shifted 20px away from where its left end used to be matlab wo element ka left end agar x=-2 pe tha toh ab wo x=18 pe aa jaega. unlike static agar koi iske raaste mei aa jega maan lo x=10 pe koi element ho toh wo use dhakel ke apne saath aage nai lejaega balki uspe se hokar gujarega ya agr x=18 pe koi element ka left end hota toh vo uspe overlap kar jata
-absolute -- if we set absolute positioning and then if we add the line right = 20px to the element having its left end at left side of parent and right end at 10px away from left end of parent, then the element will shift towards right side of parent such that its right end is 20px far from right end of parent
-fixed -- jitna bhi oopra niche scroll karo , vo element jiski positoning fixed hai vo vaisa hi rahega for eg you set the positioing to fixed and to top then jaha bhi scroll karke jaaoge vo element screen ke top pe hi rahega -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +7,10 @@ fixed -- jitna bhi oopra niche scroll karo , vo element jiski positoning fixed h
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sanskar Modi</title>
 
-    <link rel="stylesheet" href="css/style4.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" />
 
-    <!--these 3 lines are used to import fonts from google fonts-->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,12 +19,10 @@ fixed -- jitna bhi oopra niche scroll karo , vo element jiski positoning fixed h
     />
   </head>
   <body>
-    <!--this is a div. it is used to structure the layout by dividing it into sections. it is used as a container for html elements and it has no effect until it is styled  -->
-    <div class="top-container">
+    div class="top-container">
       <img class="top-cloud" src="cloud.png" alt="cloud-img" />
       <h1>I'm Sanskar</h1>
       <h2>a <span id="pro">pro</span>grammer.</h2>
-      <!--span is used to refer a piece of text-->
       <img class="bottom-cloud" src="cloud.png" alt="cloud-img" />
       <img src="mountain.png" alt="mountain-img" />
     </div>
