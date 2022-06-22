@@ -3,4 +3,4 @@ This is my first styled website made during the Udemy's Angela Yu's web developm
 
 https://sansprog.github.io/aboutMyself/
 
-While seeing the website on Mobile phone or Tablet, remember to enable desktop site for correct configuration as this website is not responsive.
+This website is not responsive.
